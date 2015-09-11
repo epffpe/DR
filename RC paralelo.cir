@@ -1,0 +1,7 @@
+RC paralelo
+i1 0 1 ac 1
+r 1 0 138.86k
+c 1 0 2.06e-12
+.ac dec 1000 10k 10Meg
+.probe
+.end

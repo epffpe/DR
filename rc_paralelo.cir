@@ -1,0 +1,7 @@
+rc_paralelo
+i1 0 1 ac 1
+r1 1 0 395.25
+c1 1 0 587.6p
+.ac lin 1001 500k 1500k
+.probe
+.end

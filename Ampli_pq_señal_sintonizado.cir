@@ -1,0 +1,16 @@
+ampli sintonizado
+v1 0 1 ac 1
+r1 1 0 3.3Meg
+r2 2 1 100
+r3 2 0 10400
+c1 2 0 57e-12
+c2 2 3 4.5e-12
+g1 3 0 2 0 0.038
+L1 3 31 250uH
+rs 31 0 19.6
+Cl 3 0 100p
+r4 3 0 10k
+.ac dec 1000 1k 10Meg
+.probe
+.end
+

@@ -1,0 +1,12 @@
+filtro con transformador
+vg 1 0 ac 1
+rg 1 2 10k
+c1 2 0 100e-12
+l1 2 3 250e-6
+l2 4 0 6.94e-6
+rl 4 0 300
+k1 l1 l2 0.999
+rs 3 0 19.63
+.ac dec 1000 1 10e6
+.probe
+.end
